@@ -7,8 +7,8 @@ ARKit による仮想オブジェクトがカメラに追従する UI。
 
 　
 
-[![サンプル1](https://i.vimeocdn.com/video/747637411.jpg)](https://player.vimeo.com/video/307635507)
+[![サンプル1](https://i.vimeocdn.com/video/747637411_236x133.jpg)](https://player.vimeo.com/video/307635507)
 
-[![サンプル2](https://i.vimeocdn.com/video/747637817.jpg)](https://player.vimeo.com/video/307635844)
+[![サンプル2](https://i.vimeocdn.com/video/747637817_236x133.jpg)](https://player.vimeo.com/video/307635844)
 
-[![サンプル3](https://i.vimeocdn.com/video/747637910.jpg)](https://player.vimeo.com/video/307635926)
+[![サンプル3](https://i.vimeocdn.com/video/747637910_236x133.jpg)](https://player.vimeo.com/video/307635926)
