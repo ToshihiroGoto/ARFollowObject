@@ -49,7 +49,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     @objc func handleTap(_ gestureRecognize: UIGestureRecognizer) {
         
-        
         // check what nodes are tapped
         let p = gestureRecognize.location(in: sceneView)
         let hitResults = sceneView.hitTest(p, options: [:])
@@ -74,7 +73,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                     followNode.simdWorldTransform = nodeDic[nodeName]!
                 }else{
                     followNode.simdTransform = cameraNode.simdConvertTransform(followNode.simdTransform, to: nil)
-                    followNode.simdEulerAngles = simd_float3()
+                    //followNode.simdEulerAngles = simd_float3()
                 }
                 
                 nodeDic[nodeName] = nil
@@ -88,7 +87,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             }
             
             // get its material
-            let material = followGeometryNode.geometry!.firstMaterial!
+            let material = result.node.geometry!.firstMaterial!
             
             // highlight it
             SCNTransaction.begin()
